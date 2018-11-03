@@ -4,7 +4,8 @@
   "description": "Web app for lead management",
   "main": "index.js",
   "scripts": {
-    "test": "build"
+    "test": "build",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,10 @@
     "url": "https://github.com/jboss-outreach/lead-management-server/issues"
   },
   "dependencies": {
-    "express": "^4.15.3"
+    "angular-patternfly": "^4.13.3",
+    "express": "^4.15.3",
+    "firebaseui": "^2.5.1"
+    "socket.io": "^2.0.4"
   },
   "homepage": "https://github.com/jboss-outreach/lead-management-server#readme"
 }
